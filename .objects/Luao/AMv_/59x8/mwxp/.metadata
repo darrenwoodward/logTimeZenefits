@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Time & Attendance",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "mwxpbJ6lDU-_8NtwPcvxXg",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/mwxpbJ6lDU-_8NtwPcvxXg",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/59x8QDKpF0WHvXgy3q3N-A",
+  "Created": "2024-11-01T15:13:23.3902176Z",
+  "Updated": "2024-11-01T15:20:20.623346Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

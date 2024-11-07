@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zuIMim-6fUKdoH_CxIrROA" Reference="Odhl2noL1UuRMHIEBgK_DQ/j4kD-VGsZ0iddRl13fy0Ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="6daeb857-3549-4472-babe-715450dfeca2" CvTextArea="1558, 429, 81, 24" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1560, 428, 79, 23" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='react-boot-container' tag='DIV' type='' class='sc-htoDjs bZzhDu sc-dnqmqq Button__StyledChildren-sc-1c7ai31-0 giWKkn' check:innerText='Log Out' /&gt;" Guid="d17a0292-dbbb-4968-ad4f-47cf29e32418" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f1753165-532e-432b-89b1-de9d6d60e459" CvTextArea="1558, 429, 81, 24" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1536, 410, 298, 60" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' tag='BUTTON' type='button' class='sc-bdVaJa bDWFJH sc-bwzfXH Button__StyledButton-sc-1c7ai31-3 dFqOhj ButtonDropdown__StyledButton-xj6w2c-2 bGZoVA' check:innerText='Log Out' /&gt;" Guid="c2893e5b-8d33-4e11-8ef2-60d04c302fe1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d2962350b24a2eca2921976abf95a9c.png" xmlns="">096CReIFBA0S5FG4bPXtHDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

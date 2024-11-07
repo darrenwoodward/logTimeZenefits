@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MM8888K5RkqFa06gI90pfg" Reference="Odhl2noL1UuRMHIEBgK_DQ/VG-eeErBxUqQf-xwHAPi5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname=' &amp;#x9;Enter Hours    ' innertext=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="8f7b67a8-1fec-4932-96cc-3a3bd39e677c" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember4976' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="5f4d9b23-a686-48f8-a8f2-04e125c3b719" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="74738a818d26912e199e14ddf26fdf8b.png" xmlns="">0bbWqQDBkmEWMv1yLjxu3Qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome TriNet Login",
+  "Type": "Screen",
+  "Id": "2xgrHJ2Q20qO3T-Rll_a1w",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/2xgrHJ2Q20qO3T-Rll_a1w",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/AMv_p1mOkEOcgkuQt46_nA",
+  "Created": "2024-11-04T18:58:08.3820959Z",
+  "Updated": "2024-11-04T18:58:08.3820959Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

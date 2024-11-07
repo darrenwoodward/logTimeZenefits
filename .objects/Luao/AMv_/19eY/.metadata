@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome TriNet(1)",
+  "Type": "Screen",
+  "Id": "19eYtQyFd0GRwlDyYwYyiQ",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/19eYtQyFd0GRwlDyYwYyiQ",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/AMv_p1mOkEOcgkuQt46_nA",
+  "Created": "2024-11-01T17:14:07.6479295Z",
+  "Updated": "2024-11-01T17:14:07.6479295Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

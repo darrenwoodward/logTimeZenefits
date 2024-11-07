@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Open Chrome and navigate to Zenefits login page",
+  "Type": "App",
+  "Id": "Luao86EDg0W5JxVbRJOp6Q",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/Luao86EDg0W5JxVbRJOp6Q",
+  "Created": "2024-10-28T15:27:49.6515189Z",
+  "Updated": "2024-10-28T15:27:49.6515189Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

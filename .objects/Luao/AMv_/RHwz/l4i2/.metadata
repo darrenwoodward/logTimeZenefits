@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter Hours",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "l4i2R7B6hESsYXtQjZHhzg",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/l4i2R7B6hESsYXtQjZHhzg",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/RHwzgH1-u0KvZovQNUyBjw",
+  "Created": "2024-10-28T16:10:49.5130847Z",
+  "Updated": "2024-10-28T16:10:49.5130847Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

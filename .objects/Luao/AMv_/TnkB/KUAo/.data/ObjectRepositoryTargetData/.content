@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_Tnnp5czq0-Fc8R9M7DPmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" DesignTimeRectangle="35, 568, 340, 84" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl aria-role='option' tag='DIV' type='' class='sc-htoDjs bZzhDu sc-dnqmqq SelectOptions__SelectOptionContainer-sc-1o1f2je-1 bqhwZo' aaname='' check:innerText='Oct 30 - Nov 13, 2024 (Current)' /&gt;" Guid="a2cad3e7-aeaf-4d2d-9543-87f80dc32f78" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="29753c7d-9843-4af1-b0b0-eadae10031fe" CvTextArea="99, 516, 67, 19" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="47, 496, 316, 60" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='zf-pay-period-select-label' tag='INPUT' type='text' class='sc-ifAKCX cFlEyZ sc-EHOje hpSCsO Input__StyledInput-jn4tdb-0 iphlkg' placeholder='Search' aaname='' /&gt;" Guid="8bb67fcb-1b14-4e91-9625-af65f9358990" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2fedf95ca69a9b21730502e66ca783d.png" xmlns="">0b-0244wawEWUWGM-bUTF8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

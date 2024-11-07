@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Dashboard - TriNet",
+  "Type": "Screen",
+  "Id": "TdZtusaVNUSFMAQVq-8akA",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/TdZtusaVNUSFMAQVq-8akA",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/AMv_p1mOkEOcgkuQt46_nA",
+  "Created": "2024-10-28T16:04:19.3317924Z",
+  "Updated": "2024-10-28T16:04:19.3317924Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

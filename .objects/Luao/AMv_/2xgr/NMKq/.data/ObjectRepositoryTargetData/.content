@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a_R2aG-TakKjjHxfC0J1cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b646328a-800a-4b70-928e-96ffc1c22ab1" CvTextArea="339, 246, 118, 22" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="341, 240, 117, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' innertext='Dashboard' check:innerText='Dashboard' /&gt;" Guid="f4692f32-b022-445c-a511-948cbf75a75a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b646328a-800a-4b70-928e-96ffc1c22ab1" CvTextArea="132, 234, 162, 49" CvTextArgument="trinet" CvType="Text" DesignTimeRectangle="137, 230, 155, 57" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='sc-eHgmQL gmKbQu sc-cvbbAY TopNavBar__StyledLogoImage-u7z1jg-0 dLMtyX js-walkme-top-nav-logo' aaname='TriNet' /&gt;" Guid="4d5c7f8d-31e6-4f88-9a6c-8dcbdec0e8a1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ce168445d30f477c87dfeb87b6f94f23.png" xmlns="">0x9TxP8s4GkWzJdo3pZe-og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

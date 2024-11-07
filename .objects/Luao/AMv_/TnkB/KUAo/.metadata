@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Oct 30 - Nov 13, 2024 (…'",
+  "Type": "Element",
+  "Id": "KUAoSGsajUm0DmWaNk24fQ",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/KUAoSGsajUm0DmWaNk24fQ",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/TnkBHGDJuUeYQTdsRX1zIw",
+  "Created": "2024-10-31T17:13:06.125786Z",
+  "Updated": "2024-10-31T17:13:06.125786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

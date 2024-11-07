@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Time & Attendance'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g6H4CEtOKUWqVZ6Dm06Idg",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/g6H4CEtOKUWqVZ6Dm06Idg",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/TnkBHGDJuUeYQTdsRX1zIw",
+  "Created": "2024-10-31T17:07:57.917804Z",
+  "Updated": "2024-10-31T17:07:57.917804Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

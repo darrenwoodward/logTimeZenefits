@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click off of current item to save timesheet entry",
+  "Type": "Element",
+  "Id": "LBK85d-98E-kr1dkFfFCtw",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/LBK85d-98E-kr1dkFfFCtw",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/RHwzgH1-u0KvZovQNUyBjw",
+  "Created": "2024-10-29T17:18:02.9040121Z",
+  "Updated": "2024-10-29T17:18:02.9040121Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

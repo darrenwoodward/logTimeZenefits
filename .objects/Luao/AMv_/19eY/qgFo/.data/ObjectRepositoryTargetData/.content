@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lwCAjvlh90eA2q2KuSpLNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="67c99f6d-f382-48c2-89d6-53b25fac39ca" CvTextArea="132, 234, 162, 49" CvTextArgument="trinet" CvType="Text" DesignTimeRectangle="137, 230, 155, 57" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='sc-eHgmQL gmKbQu sc-cvbbAY TopNavBar__StyledLogoImage-u7z1jg-0 dLMtyX js-walkme-top-nav-logo' aaname='TriNet' /&gt;" Guid="e62aa8fe-b60d-454b-b50c-ef7b64602987" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c123103f161c2f1c3a66f96435961e8f.png" xmlns="">0jzSglTj4WU6b_VWyOmhR5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

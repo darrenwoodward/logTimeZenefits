@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Welcome back!",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "92Ni6zva40qeq8qpfSqJHA",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/92Ni6zva40qeq8qpfSqJHA",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/RHwzgH1-u0KvZovQNUyBjw",
+  "Created": "2024-10-28T15:30:53.1371867Z",
+  "Updated": "2024-10-28T15:30:53.1371867Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

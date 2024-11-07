@@ -1,0 +1,17 @@
+﻿{
+  "Name": "ZenefitsHamburgerMenu",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "kIWHcJ1uvECadW3POKZ6SA",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/kIWHcJ1uvECadW3POKZ6SA",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/RHwzgH1-u0KvZovQNUyBjw",
+  "Created": "2024-10-28T17:17:21.909673Z",
+  "Updated": "2024-10-28T17:17:53.0198597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

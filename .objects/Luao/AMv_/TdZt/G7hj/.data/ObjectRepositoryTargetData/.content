@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p-BPerYPFE29uLC8PoVG8g" Reference="Odhl2noL1UuRMHIEBgK_DQ/G7hjxT8IuUmJo52wzfx1og" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="16e0a0ac-d2fd-4159-b897-ec0b23b85629" CvTextArea="45, 575, 184, 19" CvTextArgument="Time &amp; Attendance" CvType="Text" DesignTimeRectangle="12, 558, 373, 54" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="3f7a5897-b098-4518-80b7-37a0ba303034" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String" xml:space="preserve">"&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" +
+"&lt;webctrl aaname='Time &amp;amp; Attendance' tag='A' /&gt;"</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="228e412607260608003dd856702e17cd.png" xmlns="">0PPFEESwld0Wo0aPgTDoG-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

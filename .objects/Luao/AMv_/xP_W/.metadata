@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Enter email address from stored credentials a",
+  "Type": "Screen",
+  "Id": "xP_WY4R-n0Kw-YolaYmVdg",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/xP_WY4R-n0Kw-YolaYmVdg",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/AMv_p1mOkEOcgkuQt46_nA",
+  "Created": "2024-10-28T15:29:23.6168955Z",
+  "Updated": "2024-10-28T15:29:23.6168955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

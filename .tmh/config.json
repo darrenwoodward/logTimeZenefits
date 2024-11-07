@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/darrenwoodwarddesign/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "83ad57f3-e948-0000-8a68-0b4775744003",
+    "name": "ZenefitsTimesheetTestCase",
+    "key": "ZTS"
+  }
+}

@@ -1,0 +1,475 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Clicktimesheetmenuoption" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="outputElement" Type="InArgument(ui:UiElement)" />
+    <x:Property Name="in_browserInstance" Type="InArgument(ui:Browser)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Windows.Controls.Ribbon</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="2746,2706" sap2010:WorkflowViewState.IdRef="Sequence_27">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Wait for system to finish loading, click timesheet menu option" sap:VirtualizedContainerService.HintSize="2746,2683.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_26">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="2712,2600.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="2678,2439.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_28">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check App State 'I'" sap:VirtualizedContainerService.HintSize="2644,2376.6666666666665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="2140,2091.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ZenefitsHamburgerMenu'" sap:VirtualizedContainerService.HintSize="2106,228" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="711b75f1-b528-43e2-8077-e9c99427aa64" ContentHash="uka9fNyEe0i3IUsOszuWHA" CvElementArea="103, 255, 32, 28" CvType="Icon" DesignTimeRectangle="110, 258, 18, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='sc-iAyFgw gPlgsX sc-hSdWYo eMURO' aaname='' /&gt;" Guid="1a0e33f9-9dfe-4eb9-8746-7e20d63da780" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAZCAYAAAA14t7uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABoSURBVEhLY/hPIzBqMByMGgwHcINr+lf9N/Kvogj7pvX8f/32E9g8uMFZDfP/C5mkUYSNA6r/v3j9AWwe3OAPn76CBSnBINf++fsXbN5o5I1GHiagvcE0C2OaGUxtMGowHAw1g///BwCLG54suZgcDAAAAABJRU5ErkJggg==" InformativeScreenshot="48bce1e31cd72bd4986785ca6891f8c6.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/kIWHcJ1uvECadW3POKZ6SA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="95, 242, 48, 54" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='sc-bdVaJa bDWFJH sc-bwzfXH Button__StyledButton-sc-1c7ai31-3 gVAsrD js-walkme-top-nav-open' aaname='' /&gt;" Guid="73d9bbd7-efa5-4a39-bc21-0c31c27b2bdc" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="Element 'ZenefitsHamburgerMenu'" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="711b75f1-b528-43e2-8077-e9c99427aa64" ContentHash="uka9fNyEe0i3IUsOszuWHA" CvElementArea="103, 255, 32, 28" CvType="Icon" DesignTimeRectangle="110, 258, 18, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='sc-iAyFgw gPlgsX sc-hSdWYo eMURO' aaname='' /&gt;" Guid="1a0e33f9-9dfe-4eb9-8746-7e20d63da780" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAZCAYAAAA14t7uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABoSURBVEhLY/hPIzBqMByMGgwHcINr+lf9N/Kvogj7pvX8f/32E9g8uMFZDfP/C5mkUYSNA6r/v3j9AWwe3OAPn76CBSnBINf++fsXbN5o5I1GHiagvcE0C2OaGUxtMGowHAw1g///BwCLG54suZgcDAAAAABJRU5ErkJggg==" InformativeScreenshot="48bce1e31cd72bd4986785ca6891f8c6.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/kIWHcJ1uvECadW3POKZ6SA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="95, 242, 48, 54" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='sc-bdVaJa bDWFJH sc-bwzfXH Button__StyledButton-sc-1c7ai31-3 gVAsrD js-walkme-top-nav-open' aaname='' /&gt;" Guid="73d9bbd7-efa5-4a39-bc21-0c31c27b2bdc" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NCheckState DisplayName="Check App State 'Time &amp; Attendance'" sap:VirtualizedContainerService.HintSize="2106,1800.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Timeout="10" Version="V4">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1602,1558" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Time &amp; Attendance'" sap:VirtualizedContainerService.HintSize="1568,228" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="31d3f49c-a33d-4f67-b63f-3da3e94c2e12" ContentHash="sm3TzpBzYEG_eQp6vJcWrw" DesignTimeRectangle="12, 558, 373, 54" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname='Time &amp;amp; Attendance' tag='A' innertext='Time &amp;amp; Attendance' idx='1' check:innerText='Time &amp;amp; Attendance' /&gt;" Guid="4e9b0f6b-edf6-49da-a93d-c7ab6e89c231" ImageBase64="" InformativeScreenshot="a76b2903da14a0670ef831c368b35ee7.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/mwxpbJ6lDU-_8NtwPcvxXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="f071f880-08aa-4252-a5c7-05ce1234cd93" CvTextArea="45, 575, 184, 19" CvTextArgument="Time &amp; Attendance" CvType="Text" DesignTimeRectangle="45, 574, 184, 19" ElementType="Text" Guid="1043ca1e-1157-4d9f-8b0a-089aef36c07b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1568,178" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info">
+                            <ui:LogMessage.Message>
+                              <InArgument x:TypeArguments="x:Object">
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">"Time and attendance Selected"</CSharpValue>
+                              </InArgument>
+                            </ui:LogMessage.Message>
+                          </ui:LogMessage>
+                          <uix:NCheckState DisplayName="Check App State 'Enter Hours'" sap:VirtualizedContainerService.HintSize="1568,1092" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Timeout="10" Version="V4">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,424.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enter Hours'" sap:VirtualizedContainerService.HintSize="416,190.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" ContentHash="MM8888K5RkqFa06gI90pfg" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname=' &amp;#x9;Enter Hours    ' innertext=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="8f7b67a8-1fec-4932-96cc-3a3bd39e677c" ImageBase64="" InformativeScreenshot="74738a818d26912e199e14ddf26fdf8b.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/VG-eeErBxUqQf-xwHAPi5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember4976' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="5f4d9b23-a686-48f8-a8f2-04e125c3b719" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uix:NClick>
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+                                  <ui:LogMessage.Message>
+                                    <InArgument x:TypeArguments="x:Object">
+                                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">"Enter Hours button clicked"</CSharpValue>
+                                    </InArgument>
+                                  </ui:LogMessage.Message>
+                                </ui:LogMessage>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1064,846.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1030,786.6666666666666" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="1">
+                                  <ui:RetryScope.ActivityBody>
+                                    <ActivityAction>
+                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="988,584" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NCheckState DisplayName="Check App State 'Enter Hours'" sap:VirtualizedContainerService.HintSize="954,524" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                                          <uix:NCheckState.IfExists>
+                                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,281.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enter Hours'" sap:VirtualizedContainerService.HintSize="416,221.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1ed7fac7-4208-4238-8e52-ae19076d6899" Version="V4">
+                                                <uix:NClick.Target>
+                                                  <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" ContentHash="MM8888K5RkqFa06gI90pfg" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname=' &amp;#x9;Enter Hours    ' innertext=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="8f7b67a8-1fec-4932-96cc-3a3bd39e677c" ImageBase64="" InformativeScreenshot="74738a818d26912e199e14ddf26fdf8b.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/VG-eeErBxUqQf-xwHAPi5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember4976' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="5f4d9b23-a686-48f8-a8f2-04e125c3b719" SearchSteps="FuzzySelector, CV" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NClick.Target>
+                                                <uix:NClick.VerifyOptions>
+                                                  <uix:VerifyExecutionOptions DisplayName="Button 'Enter Hours'" IsLoose="True" Mode="Appears">
+                                                    <uix:VerifyExecutionOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionOptions.Retry>
+                                                    <uix:VerifyExecutionOptions.Target>
+                                                      <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="fdca515d-83e8-4869-979d-ad27a6726fad" ContentHash="dqf8qgDFgUmtctepgT-wdg" CvElementArea="126, 635, 261, 71" CvTextArea="191, 660, 130, 24" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember5351' tag='BUTTON' type='' class='overview-page-titleCard-ctaButton js-test-overview-page-titleCard-primaryButton btn--lg u-bumperRight--lg ember-view z-laddaButton btn btn--primary' aaname=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="61856390-02cf-4417-a80b-e3a83622a2d0" InformativeScreenshot="b661fd671240c7781328336bae11643d.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/l4i2R7B6hESsYXtQjZHhzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                            <uix:Target CVScreenId="fdca515d-83e8-4869-979d-ad27a6726fad" CvElementArea="126, 635, 261, 71" CvTextArea="191, 660, 130, 24" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember5351' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="11d62cd9-c2ae-4293-a03a-82077d84b5ba" SearchSteps="FuzzySelector, CV" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:VerifyExecutionOptions.Target>
+                                                    <uix:VerifyExecutionOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionOptions.Timeout>
+                                                  </uix:VerifyExecutionOptions>
+                                                </uix:NClick.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NClick>
+                                            </Sequence>
+                                          </uix:NCheckState.IfExists>
+                                          <uix:NCheckState.IfNotExists>
+                                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Error">
+                                                <ui:LogMessage.Message>
+                                                  <InArgument x:TypeArguments="x:Object">
+                                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">"Application failed to load at Enter Hours button click. Please retry automation."</CSharpValue>
+                                                  </InArgument>
+                                                </ui:LogMessage.Message>
+                                              </ui:LogMessage>
+                                            </Sequence>
+                                          </uix:NCheckState.IfNotExists>
+                                          <uix:NCheckState.Target>
+                                            <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" ContentHash="MM8888K5RkqFa06gI90pfg" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname=' &amp;#x9;Enter Hours    ' innertext=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="8f7b67a8-1fec-4932-96cc-3a3bd39e677c" ImageBase64="" InformativeScreenshot="74738a818d26912e199e14ddf26fdf8b.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/VG-eeErBxUqQf-xwHAPi5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                              <uix:TargetAnchorable.Anchors>
+                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                  <uix:Target CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember4976' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="5f4d9b23-a686-48f8-a8f2-04e125c3b719" SearchSteps="FuzzySelector, CV" />
+                                                </scg:List>
+                                              </uix:TargetAnchorable.Anchors>
+                                            </uix:TargetAnchorable>
+                                          </uix:NCheckState.Target>
+                                        </uix:NCheckState>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:RetryScope.ActivityBody>
+                                  <ui:RetryScope.Condition>
+                                    <ActivityFunc x:TypeArguments="x:Boolean" />
+                                  </ui:RetryScope.Condition>
+                                </ui:RetryScope>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" ContentHash="MM8888K5RkqFa06gI90pfg" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' aaname=' &amp;#x9;Enter Hours    ' innertext=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="8f7b67a8-1fec-4932-96cc-3a3bd39e677c" ImageBase64="" InformativeScreenshot="74738a818d26912e199e14ddf26fdf8b.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/VG-eeErBxUqQf-xwHAPi5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="b04a9a8d-b983-413b-8833-360dc8ae39ac" CvElementArea="126, 557, 261, 72" CvTextArea="191, 582, 130, 22" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember4976' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="5f4d9b23-a686-48f8-a8f2-04e125c3b719" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NCheckState.Target>
+                          </uix:NCheckState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="31d3f49c-a33d-4f67-b63f-3da3e94c2e12" ContentHash="sm3TzpBzYEG_eQp6vJcWrw" DesignTimeRectangle="12, 558, 373, 54" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname='Time &amp;amp; Attendance' tag='A' innertext='Time &amp;amp; Attendance' idx='1' check:innerText='Time &amp;amp; Attendance' /&gt;" Guid="4e9b0f6b-edf6-49da-a93d-c7ab6e89c231" ImageBase64="" InformativeScreenshot="a76b2903da14a0670ef831c368b35ee7.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/mwxpbJ6lDU-_8NtwPcvxXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="f071f880-08aa-4252-a5c7-05ce1234cd93" CvTextArea="45, 575, 184, 19" CvTextArgument="Time &amp; Attendance" CvType="Text" DesignTimeRectangle="45, 574, 184, 19" ElementType="Text" Guid="1043ca1e-1157-4d9f-8b0a-089aef36c07b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,231.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error">
+                      <ui:LogMessage.Message>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"Time and Attendance button failed to load"</CSharpValue>
+                        </InArgument>
+                      </ui:LogMessage.Message>
+                    </ui:LogMessage>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="secure.zenefits.com/dashboard" CVScreenId="711b75f1-b528-43e2-8077-e9c99427aa64" ContentHash="uka9fNyEe0i3IUsOszuWHA" CvElementArea="103, 255, 32, 28" CvType="Icon" DesignTimeRectangle="110, 258, 18, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='sc-iAyFgw gPlgsX sc-hSdWYo eMURO' aaname='' /&gt;" Guid="1a0e33f9-9dfe-4eb9-8746-7e20d63da780" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAZCAYAAAA14t7uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABoSURBVEhLY/hPIzBqMByMGgwHcINr+lf9N/Kvogj7pvX8f/32E9g8uMFZDfP/C5mkUYSNA6r/v3j9AWwe3OAPn76CBSnBINf++fsXbN5o5I1GHiagvcE0C2OaGUxtMGowHAw1g///BwCLG54suZgcDAAAAABJRU5ErkJggg==" InformativeScreenshot="48bce1e31cd72bd4986785ca6891f8c6.png" Reference="Odhl2noL1UuRMHIEBgK_DQ/kIWHcJ1uvECadW3POKZ6SA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="95, 242, 48, 54" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='sc-bdVaJa bDWFJH sc-bwzfXH Button__StyledButton-sc-1c7ai31-3 gVAsrD js-walkme-top-nav-open' aaname='' /&gt;" Guid="73d9bbd7-efa5-4a39-bc21-0c31c27b2bdc" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.InUiElement>
+          <InArgument x:TypeArguments="ui:UiElement">
+            <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">in_browserInstance</CSharpValue>
+          </InArgument>
+        </uix:NApplicationCard.InUiElement>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IAwVeAU_6U2WuoHYa8g-5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="e2198e56-d8f9-4fea-ab8f-50f030d2f631" CvTextArea="99, 516, 67, 21" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="47, 496, 316, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='zf-pay-period-select-label' tag='INPUT' type='text' class='sc-ifAKCX cFlEyZ sc-EHOje hpSCsO Input__StyledInput-jn4tdb-0 iphlkg' placeholder='Search' aaname='' /&gt;" Guid="2bcf3a42-6b63-44fe-a702-887705675c47" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1422af8ced7f1ff603e54765de0f586f.png" xmlns="">0LdoHdIRpl0Chs-qex95m9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uka9fNyEe0i3IUsOszuWHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="711b75f1-b528-43e2-8077-e9c99427aa64" CvElementArea="103, 255, 32, 28" CvType="Icon" DesignTimeRectangle="110, 258, 18, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='sc-iAyFgw gPlgsX sc-hSdWYo eMURO' aaname='' /&gt;" Guid="1a0e33f9-9dfe-4eb9-8746-7e20d63da780" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAZCAYAAAA14t7uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABoSURBVEhLY/hPIzBqMByMGgwHcINr+lf9N/Kvogj7pvX8f/32E9g8uMFZDfP/C5mkUYSNA6r/v3j9AWwe3OAPn76CBSnBINf++fsXbN5o5I1GHiagvcE0C2OaGUxtMGowHAw1g///BwCLG54suZgcDAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="95, 242, 48, 54" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='sc-bdVaJa bDWFJH sc-bwzfXH Button__StyledButton-sc-1c7ai31-3 gVAsrD js-walkme-top-nav-open' aaname='' /&gt;" Guid="73d9bbd7-efa5-4a39-bc21-0c31c27b2bdc" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="48bce1e31cd72bd4986785ca6891f8c6.png" xmlns="">0bz1n3H10PEuMQdglNaxdGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h3xRJHsELkaB4JHgMaz0OQ" Reference="Odhl2noL1UuRMHIEBgK_DQ/8sGymz6OVUO7X3a-sToFlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/accounts/login/1" CVScreenId="e18d69e9-81f9-4e26-972a-6e4b97e0d29e" DesignTimeRectangle="294, 575, 579, 69" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='loginButton' tag='BUTTON' type='submit' class='btn btn--primary u-bumperTop--md u-bumperBottom' check:innerText='Next' /&gt;" Guid="e51657de-347c-40e3-a3c9-7939d6e0d911" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet Login' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9326364c3f2fd80c287e9be71de3ac9f.png" xmlns="">0jBW8dD4670SYRWmSYPdLMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

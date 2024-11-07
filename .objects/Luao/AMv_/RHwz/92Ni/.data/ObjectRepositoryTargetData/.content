@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0NIGcib4ckyygupaSlNMvw" Reference="Odhl2noL1UuRMHIEBgK_DQ/92Ni6zva40qeq8qpfSqJHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/accounts/login/1" CVScreenId="ea327fc8-773b-48ae-95e8-240abc19d02f" CvElementArea="849, 334, 390, 44" CvType="InputBox" DesignTimeRectangle="193, 327, 386, 41" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='id_username' tag='INPUT' type='text' class='' placeholder='Email Address' aaname='' /&gt;" Guid="28718e4a-3bc1-40bb-88da-a9188dc07fe3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ea327fc8-773b-48ae-95e8-240abc19d02f" CvTextArea="934, 276, 218, 27" CvTextArgument="Welcome back!" CvType="Text" DesignTimeRectangle="193, 261, 386, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='u-bumperBottom--md' aaname='Welcome back!' check:innerText='Welcome back!' /&gt;" Guid="5b7aa669-0055-4775-a69d-915495aad9f1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fbe8f9068ceada4cb1a9af2b30fef4e9.png" xmlns="">0z8n0VNbsKUKYwusuXmkc2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

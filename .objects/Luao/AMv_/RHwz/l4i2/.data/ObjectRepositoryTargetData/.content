@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dqf8qgDFgUmtctepgT-wdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="fdca515d-83e8-4869-979d-ad27a6726fad" CvElementArea="126, 635, 261, 71" CvTextArea="191, 660, 130, 24" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="129, 638, 255, 66" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember5351' tag='BUTTON' type='' class='overview-page-titleCard-ctaButton js-test-overview-page-titleCard-primaryButton btn--lg u-bumperRight--lg ember-view z-laddaButton btn btn--primary' aaname=' &amp;#x9;Enter Hours    ' check:innerText='Enter Hours' /&gt;" Guid="61856390-02cf-4417-a80b-e3a83622a2d0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fdca515d-83e8-4869-979d-ad27a6726fad" CvElementArea="126, 635, 261, 71" CvTextArea="191, 660, 130, 24" CvTextArgument="Enter Hours" CvType="Button" DesignTimeRectangle="153, 659, 207, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember5351' tag='DIV' type='' class='z-laddaButton-content' aaname=' &amp;#x9;Enter Hours ' check:innerText='Enter Hours' /&gt;" Guid="11d62cd9-c2ae-4293-a03a-82077d84b5ba" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b661fd671240c7781328336bae11643d.png" xmlns="">0LeYBrqOB5U6dOe8LsMAWag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

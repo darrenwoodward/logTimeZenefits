@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vlHlR9aOAkePLadBBdY-qQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/dashboard" CVScreenId="20eaf508-c8f8-4209-9a56-cb302821e7b4" CvTextArea="34, 499, 567, 24" CvTextArgument="Reporting: Self Reporting Hours Status: Not Yet Approved" CvType="Text" DesignTimeRectangle="35, 483, 1825, 54" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='sc-hMqMXs cPxEnv sc-kEYyzF jdQvUI' parentid='react-app-component-time-ta' tag='DIV' aaname='' check:innerText='Reporting:Self Reporting Hours&amp;#xA;Status:Not Yet Approved' /&gt;" Guid="35b0567f-ec1a-4ec6-a3f1-565b49319361" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="20eaf508-c8f8-4209-9a56-cb302821e7b4" CvTextArea="34, 501, 100, 22" CvTextArgument="Reporting:" CvType="Text" DesignTimeRectangle="35, 496, 105, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='sc-brqgnP eBzMGS' aaname='Reporting:' check:innerText='Reporting:' /&gt;" Guid="e6827f20-2c78-49fd-9812-243897e45519" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2e24bd1e84b883f1f944b06310174114.png" xmlns="">06DRWMrzzB0yBKxtMwNfDRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

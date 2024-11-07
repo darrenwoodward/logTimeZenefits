@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open Chrome and navigate to Zenefits login pa",
+  "Type": "Screen",
+  "Id": "RHwzgH1-u0KvZovQNUyBjw",
+  "Reference": "Odhl2noL1UuRMHIEBgK_DQ/RHwzgH1-u0KvZovQNUyBjw",
+  "ParentRef": "Odhl2noL1UuRMHIEBgK_DQ/AMv_p1mOkEOcgkuQt46_nA",
+  "Created": "2024-10-28T15:27:49.8966844Z",
+  "Updated": "2024-10-28T15:27:49.8966844Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

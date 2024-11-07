@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="od-Zt78SzU2AwwzQ--87Jg" Reference="Odhl2noL1UuRMHIEBgK_DQ/uX38UERkC0-DMUVFhupTtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.zenefits.com/accounts/login" CVScreenId="20fccac9-8147-402a-9849-8fdf10dd523b" CvElementArea="291, 640, 583, 73" CvTextArea="538, 664, 87, 31" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="294, 643, 579, 69" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='loginButton' tag='BUTTON' type='submit' class='btn btn--primary u-bumperTop--md u-bumperBottom' aaname='                                          Sign In                                  ' check:innerText='Sign In' /&gt;" Guid="94060fe4-9017-49b0-a07f-6c83dd3ed8fd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TriNet Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5ad7aad6a1f067a82af1e58c1e8fe4a.png" xmlns="">0muGX65O0tk-apuenJfXgDg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
